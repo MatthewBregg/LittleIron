@@ -1,0 +1,4 @@
+5mm Motors -> wheels start
+3.75 indent for motors into motor mount wall
+
+((12.5/2) + 5) - 7.5
