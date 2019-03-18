@@ -2,3 +2,8 @@
 3.75 indent for motors into motor mount wall
 
 ((12.5/2) + 5) - 7.5
+
+dart diameter 12.7 mm
+
+Dart top 2mm from top of magwell. 
+
