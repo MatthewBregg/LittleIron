@@ -5,7 +5,7 @@
 
 dart diameter 12.7 mm
 
-Dart top 2mm from top of magwell. 
+Dart top 2mm from top of magwell. (Aka dart guide extends 2mm in.
 
 
 63.5
