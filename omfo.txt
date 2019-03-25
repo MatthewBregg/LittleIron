@@ -13,3 +13,8 @@ Dart top 2mm from top of magwell. (Aka dart guide extends 2mm in.
 -28.4
 
 -9.75
+
+Flywheel cage extends up 41.5mm
+Logic unit 70 MM long.
+11 per esc max height
+Logic unit 14.
