@@ -18,3 +18,5 @@ Flywheel cage extends up 41.5mm
 Logic unit 70 MM long.
 11 per esc max height
 Logic unit 14.
+
+Feed guide 7 mm
