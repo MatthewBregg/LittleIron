@@ -20,3 +20,5 @@ Logic unit 70 MM long.
 Logic unit 14.
 
 Feed guide 7 mm
+
+Bolt Was 42.2 when sidewalls were 43 apart, moving to 42.7 now that sidewalls 43.5 apart.
