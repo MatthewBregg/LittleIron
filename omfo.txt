@@ -25,3 +25,11 @@ Bolt Was 42.2 when sidewalls were 43 apart, moving to 42.7 now that sidewalls 43
 
 FWC cage top to flywheel start-> ((12.5/2) + 5) - 7.5 = 3.75
 
+Screw ports to the sides of the pusher entry hole in the magazine well: 
+  Magwell Measurements.
+    4.93 MM up
+    O---O : The dotted line is 27 MM. 
+  Pusher Bottom Measurements
+    2.7 from pusher port top to top wall top. 
+
+
