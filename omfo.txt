@@ -31,5 +31,21 @@ Screw ports to the sides of the pusher entry hole in the magazine well:
     O---O : The dotted line is 27 MM. 
   Pusher Bottom Measurements
     2.7 from pusher port top to top wall top. 
+    Padd is 3 mm
+
+
+Doh! Pusher height cannot be above 2.7
+
+Setting it to 2.5 oughta be good, and should be strong enough tm. 
+
+
+Remaining
+- Handle
+- Handle Shroud (covers the stepper and where the stepper wires will go through.).
+
+- Flywheel cover
+- Battery door cover
+- Magazine sensor
+- Oled
 
 
