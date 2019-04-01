@@ -63,3 +63,7 @@ Handle:
 73 down.
 14 extra mm added.
 
+
+Micro switch: 1mm radius, and 9mm between circle centers.
+
+NM 17 = 43.2
