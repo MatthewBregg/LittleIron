@@ -69,3 +69,5 @@ Handle:
 Micro switch: 1mm radius, and 9mm between circle centers.
 
 NM 17 = 43.2
+
+Using wheels from: https://www.thingiverse.com/thing:2953757/files
