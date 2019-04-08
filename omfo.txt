@@ -25,6 +25,8 @@ Bolt Was 42.2 when sidewalls were 43 apart, moving to 42.7 now that sidewalls 43
 
 FWC cage top to flywheel start-> ((12.5/2) + 5) - 7.5 = 3.75
 
+Groove fillers: Torukmakto4 original article: http://torukmakto4.blogspot.com/2018/01/hy-con-cage-refinements-gen2-wheel.html.  His has about 0.75mm clearence to wheel. 
+
 Screw ports to the sides of the pusher entry hole in the magazine well: 
   Magwell Measurements.
     4.93 MM up
