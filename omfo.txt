@@ -77,3 +77,5 @@ Magwell rear is roughly 3 mm thick.
 Small microswitch likes m2 screws. 
 -- Switch is CH165-ND, 
 ---- https://www.digikey.com/product-detail/en/zf-electronics/DG13-B1LA/CH165-ND/91140
+
+Oled indent: 28x28x5
