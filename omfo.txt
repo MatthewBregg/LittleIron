@@ -55,6 +55,7 @@ Grip length, 100 mm?
 
 Feed guide info:
 See : https://www.reddit.com/r/Nerf/comments/b7d6r3/what_wheels_should_i_choose/ejrm4mt/ 
+https://www.reddit.com/r/Nerf/comments/3bj3ui/standard_dart_diameter_in_centimeters/csmllj5/
 for some suggestions on good tolerences here.
 My bore axis is 8.35 mm below the magazine well top, which suggessts I want to extend my feed guide 2.35 mm down. That's damn close to what I'm currently using, 2 mm down!
 
