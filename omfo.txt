@@ -95,3 +95,6 @@ Stock threading credits/info/attributions:
 M30 threads and screw pattern from https://www.thingiverse.com/thing:1263594.
 Integrated into stock/buttplate.
 The nut was scaled down 97% in the x/y axis for a tighter fit. 
+
+Virtual nema 17 used to help modeling: 
+https://www.thingiverse.com/thing:67561/files
