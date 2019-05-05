@@ -90,7 +90,8 @@ Rear Rocket switch measurements
 30 Thick with contacts.
 Bulgin 1300AA: https://www.mouser.com/datasheet/2/57/A_Rocker_Switch-1219560.pdf
 
-Mag release spring circle radius: 3.5mm
+Mag release spring circle radius: 3.5mm.  
+MAg release pivot hole is 6.5 back from magwell, and 13 mm from magwell bottom lips.
 
 
 Stock threading credits/info/attributions:
