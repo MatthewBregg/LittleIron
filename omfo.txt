@@ -101,3 +101,5 @@ The nut was scaled down 97% in the x/y axis for a tighter fit.
 
 Virtual nema 17 used to help modeling: 
 https://www.thingiverse.com/thing:67561/files
+
+FWC length: 52.79
