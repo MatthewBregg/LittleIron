@@ -245,5 +245,16 @@ But if desired, it's fairly straight forward, just connect the pins mentioned in
 Feel free to PM me any questions on this matter.
 
 
+* Recommended Feed Delay 
 
+- Main ESC Settings
+  - TIMING_MAX :: 0x0108 (Roughly 120 FPS for endwar). 
+  - POWER_RANGE ::1500 + MIN_DUTY
+
+(I did not make separate settings for turbo, I guess my non turbo settings have enough buffer). 
+- feedDelayBase :: 90
+- driveStartedCompensation :: 30
+- recentShotCompenstaion :: 50
+- recentShotTime :: 1700
+- driveCoastTime :: 3000
 
