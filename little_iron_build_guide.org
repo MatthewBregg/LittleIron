@@ -1,3 +1,5 @@
+* Demonstration Video
+[[https://www.youtube.com/watch?v=eAHxWaTr4gs][Link To YouTube]]
 * Pictures!
 
 [[./img/1.JPG]]
@@ -27,8 +29,6 @@
 #+CAPTION: Compared to a RapidPistol
 [[./img/size_comparisons/DSC05383.JPG]]
 
-* Demonstration Video
-[[https://www.youtube.com/watch?v=eAHxWaTr4gs][Link To YouTube]]
 * Summary
 ** Goals
 To directly replace my old RapidPistol, while bringing the modern relability that larger blasters like an FDL stepper model, or T19 features. 
