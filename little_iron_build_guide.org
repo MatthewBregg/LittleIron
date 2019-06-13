@@ -31,7 +31,7 @@
 
 * Summary
 ** Goals
-To directly replace my old RapidPistol, while bringing the modern relability that larger blasters like an FDL stepper model, or T19 features. 
+To directly replace my old [[https://www.reddit.com/r/Nerf/comments/5tqr49/the_rapidgator_a_select_fire_rapidstrike/][RapidPistol]], while bringing the modern relability that larger blasters like an FDL stepper model, or T19 features. 
 
 - Key Features
   - Brushless stall resilence with groove fillers
@@ -41,7 +41,7 @@ To directly replace my old RapidPistol, while bringing the modern relability tha
   - Full length dart feed guide
   - Single trigger operation
   - On/Off Toggle
-  - Good trigger feel
+  - Tactile trigger feel
   - Similar size to a Stryfe/RapidPistol
   - Fits a whopping 1500 mah Turnigy Graphene 4S battery!
 
