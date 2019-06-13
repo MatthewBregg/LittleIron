@@ -30,6 +30,8 @@
 [[./img/size_comparisons/DSC05383.JPG]]
 
 * Summary
+** STLs 
+[[https://github.com/MatthewBregg/LittleIron/releases][Releases]]
 ** Goals
 To directly replace my old [[https://www.reddit.com/r/Nerf/comments/5tqr49/the_rapidgator_a_select_fire_rapidstrike/][RapidPistol]], while bringing the modern relability that larger blasters like an FDL stepper model, or T19 features. 
 
