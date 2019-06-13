@@ -38,6 +38,7 @@ To directly replace my old [[https://www.reddit.com/r/Nerf/comments/5tqr49/the_r
 - Key Features
   - Brushless stall resilence with groove fillers
   - Indestructible stepper pusher
+  - 40 mm pusher stroke, which means there's stroke left for large diameter wheels in an alternate cage if I so desire. 
   - Good live centeresque control
   - 14 MM bore for accuracy
   - Full length dart feed guide
