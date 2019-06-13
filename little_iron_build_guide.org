@@ -1,0 +1,246 @@
+* Pictures!
+
+[[./img/1.JPG]]
+[[./img/2.JPG]]
+*Shown with the T19 Stock*
+#+CAPTION: Shown with the T19 Stock
+[[./img/3.JPG]]
+[[./img/4.JPG]]
+
+** Ammo Counter Demo
+[[./img/ammo_counter_demo_1_hq.gif]]
+[[./img/ammo_counter_demo_2_hq.gif]]
+
+** Size Comparisons
+#+CAPTION: Vs Worker 21
+[[./img/size_comparisons/DSC05361.JPG]]
+#+CAPTION: Raw Dimensions
+[[./img/size_comparisons/DSC05374.JPG]]
+#+CAPTION: Raw Dimensions
+[[./img/size_comparisons/DSC05376.JPG]]
+#+CAPTION: Raw Dimensions
+[[./img/size_comparisons/DSC05377.JPG]]
+#+CAPTION: Compared to a Pigeon
+[[./img/size_comparisons/DSC05379.JPG]]
+#+CAPTION: Compared to a Stryfe
+[[./img/size_comparisons/DSC05381.JPG]]
+#+CAPTION: Compared to a RapidPistol
+[[./img/size_comparisons/DSC05383.JPG]]
+
+
+* Summary
+** Goals
+To directly replace my old RapidPistol, while bringing the modern relability that larger blasters like an FDL stepper model, or T19 features. 
+
+- Key Features
+  - Brushless stall resilence with groove fillers
+  - Indestructible stepper pusher
+  - Good live centeresque control
+  - 14 MM bore for accuracy
+  - Full length dart feed guide
+  - Single trigger operation
+  - On/Off Toggle
+  - Good trigger feel
+  - Similar size to a Stryfe/RapidPistol
+  - Fits a whopping 1500 mah Turnigy Graphene 4S battery!
+
+
+I am a bit disappointed in the balance of it, I feel it's overly front heavy.
+Then again, so is a RapidPistol, and with the stock attached the point is more or less moot. 
+
+** No flashlight this time?
+
+I left room in the FWC cover for a flashlight, and there's certainly room for wires to be ran through the wire tracks.
+
+But I decided to just leave flashlight mounting holes instead, as I couldn't think of a good way to add a switch to the handle, and if there's no handle switch, why integrate it instead of just using an separate flashlight module like everyone else.
+
+
+* BoM
+
+** Base
+- Pusher Motor :: Nema 17 17HS16-2004S
+- Flywheel motors :: https://hobbyking.com/en_us/2205-2350kv-ccw-v-spec-mongoose.html
+- 3D printed parts :: Preferably in PETG
+- Screws :: M3 Hex Socket Caps
+  - 30 MM
+  - 12 MM
+  - 8 MM
+- Screws :: 10-24 Set Screw 
+- Screws :: M2 Screws
+  - Two for the mag detection switch
+  - 4 to hold the oled in place
+  - 8 that come with the motors.
+- Sub mini microswitches :: Two
+  - One for the trigger
+  - One for the limit switch
+- Brushless ESC :: SimonK ESC preferred
+- Stock nerf motor that you don't mind salvaging the shaft from.
+- Lubricant for internals
+- A spring of some kind for the mag release switch
+- Main power rocker switch :: Bulgin 1300AA  (https://www.mouser.com/datasheet/2/57/A_Rocker_Switch-1219560.pdf)
+- Atmega 328P based micro. I used an arduino nano.
+- The bare necessities :: Basic electrical supplies
+  - Resistors
+    - (See the HUD code for the voltage divider values, you can use internal pull ups for the switches, or external, more robust ones in the 1K - 10K ohm range).
+  - Capacitors
+    - High ESD electrolytic for the buck converter/stepper
+  - Wiring
+  - Connectors
+  - Solder
+  - Wire
+- Stable 5V rail :: I used a pololu buck converter.
+- Stepper Driver :: DRV8825
+
+  
+** OLED version
+- Mag detection switch :: CH165-ND (https://www.digikey.com/product-detail/en/zf-electronics/DG13-B1LA/CH165-ND/91140)
+- OLED :: SSD1306 128x64
+- Another Atmega 328P based micro :: I used an arduino pro mini.
+     
+** Tools
+- Drill bits. I used a 2.7mm bit to drill some holes out further.
+- I also had 2 holes that were fine when printing with cheap filament, but were too loose when printed with the good filament. Under/over extrusion?
+  - Solution? Drill out further with the 2.7mm bit if this happens to you, or if that isn't an option, just use redrill and use a 6-32 screw. 
+  - Note to self: It's easier to drill holes out than to fill, aim for overly tight screw holes next time and just drill them out. 
+- Soldering iron
+- Afro Flashing tool
+- Arduino Pro Programmer (If using an Arduino Pro mini)
+- Dremel cutting bit to remove the motor shaft.  
+  
+* List of Parts
+- Support :: Assume no supports unless otherwise mentioned.
+- Orientation :: All items are plated in the correct orientation already.
+** Handle
+This is supporting everything. We need this to be strong..
+The stepper wire, and mag detector switch wires are routed through the trigger guard. 
+- Infill :: *100%.*
+
+** Battery Door Cover
+Provides a stock attachment point potentially, and well, covers the battery. 
+- Infill :: 20%, honeycomb.
+            
+** Blaster Topper 
+This has a picatinny rail that I don't want breaking.
+- Infill :: 20% cubic.
+            
+** Bolt 
+This pushes the dart to and fro
+We want this to be strongish, but still light to make the pushers job easier.
+- Infill :: 20% honeycomb
+- Perimeters :: 3
+- Sand/Lube :: Probably, until it moves smoothly.  The shaft track you can run through with an exacto knife.
+               
+** FWC
+The flywheel cage.
+In the track at the rear, where the cage meets the magwell, the flywheel motor wires will be routed.
+- Infill :: 100%
+- Supports :: Not strictly necessary, but print slow with high cooling if you don't use them. 
+              I personally just added supports under the groove fillers and in the wire track using selective support placement in the new Slic3r.
+
+
+** FWC Cover
+The flywheel cage cover, to prevent fingers getting caught in fast moving wheels....
+- Infill :: 20% honeycomb, not super important.
+
+** Handle_Mount 
+Goes below the main receiver, and connects the receiver/handle.
+Needs to be strong, lots of load on this piece.
+- Infill :: 100%.
+
+** Logic Box
+Holds the firing computer, and the ESCs.  
+- Infill :: 20% honeycomb
+- Supports :: NONE, the bridges portion is hidden inside. 
+
+** Magazine Well
+Holds the magazine in place, and connects the logic box, receiver, and fwc together.
+- Perimeters :: 3
+- Infill :: 20% honeycomb
+- Supports :: On the two indents at the rear, where the receiver connects to the magwell, support is needed.
+              I also preferred to support the text as well.  
+
+** Mag Release Button
+The mag release. Anything goes here.
+
+** Main mount
+The receiver.
+Holds the stepper motor, limit switch, and if you add one, Oled/ammo counter electronics.
+
+Wires from the limit switch/handle switch are routed through here, to the battery compartment. 
+
+Also holds the main power switch. 
+
+- Infill :: 100%.
+
+** Oled Cover
+Covers the oleds fragile ribbon cable. Anything goes here.
+
+** NOled Cover
+If you don't want to use an Oled screen, this is a version of the above oled cover, but with no oled hole.
+
+A no-led cover.
+Any print settings.
+
+** Pusher Mount Cover (Battery Compartment)
+Holds the battery, and on the left side, routes the main power cables, and switch cables.
+The top of the oled/oled cover go here.
+  
+- Infill :: 50% Honeycomb.
+
+
+** Right
+Covers the handle, and keeps the wires in the trigger guard in place.
+Mirror and print to get a left version.
+- Infill :: 20% honeycomb
+
+** Spinner
+Fits on the stepper motor shaft.
+Use a 10-24 set screw to secure it.
+
+Take a stock/dead 130/180 motor, and cut the shaft off it.  That shaft will friction fit into the hole in this.
+
+Lube to spin smoothly
+- Infill :: 20% honeycomb
+- Perimeters :: 3.
+
+** Stepper motor cover
+Hides the mag switch wires, improves looks, and holds the mag release button.
+
+Also helps keep the handler covers in place.
+
+- Support :: Yes
+- Infill :: 70% Honeycomb?
+
+
+** Trigger
+The main firing trigger
+- Infill :: 100%. 
+- Lube :: The top, non exposed portion doesn't hurt, but shouldn't be necessary. 
+
+          
+* Wiring
+** Core Blaster
+This is a standard brushless wiring job with a stepper pusher.
+
+[[http://torukmakto4.blogspot.com/2019/01/t19-build-guide-part-7-blaster.html][Wiring is identical/pin compatible to a T19, so I will link that excellent guide rather than trying to recreate it.]]
+
+
+** Oled Display
+*TODO*: If there is enough interest.
+
+It's a lot of work, and it's added value is not all that great.
+
+I did it to be feature complete with my earlier builds, but now that that is overwith, I probably will just use a normal volt meter and drop the ammo counter for a magazine window.
+
+Nearly as effective, and much easier to implement. 
+
+Without a flashlight built in (instead there's room for a separate one in the FWC cover, or one can be mounted to the bottom of the FWC using the two screw holes provided), access to the firing computer to adjust delay on the fly for easier calculation of feed delays, and no good place I could think of to add more buttons to this blaster, its use is limited.
+
+
+But if desired, it's fairly straight forward, just connect the pins mentioned in code to the hardware.
+
+Feel free to PM me any questions on this matter.
+
+
+
+
