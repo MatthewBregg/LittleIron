@@ -249,7 +249,7 @@ Feel free to PM me any questions on this matter.
 
 ** Main ESC Settings
   - TIMING_MAX :: 0x0108 (Roughly 120 FPS for endwar). 
-  - POWER_RANGE ::1500 + MIN_DUTY
+  - POWER_RANGE :: 1500 + MIN_DUTY
   
 ** Feed Delay Settings
 (I did not make separate settings for turbo, I guess my non turbo settings have enough buffer). 
